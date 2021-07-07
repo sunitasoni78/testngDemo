@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test parameter" duration-ms="128" started-at="2021-07-07T10:45:27Z" finished-at="2021-07-07T10:45:28Z">
+    <groups>
+    </groups>
+    <test name="adminlogin" duration-ms="66" started-at="2021-07-07T10:45:27Z" finished-at="2021-07-07T10:45:27Z">
+      <class name="test.AdminLogin">
+        <test-method status="PASS" signature="checkAdminLogin(java.lang.String, java.lang.String)[pri:0, instance:test.AdminLogin@3b2c72c2]" name="checkAdminLogin" duration-ms="20" started-at="2021-07-07T16:15:27Z" finished-at="2021-07-07T16:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+      </class> <!-- test.AdminLogin -->
+    </test> <!-- adminlogin -->
+    <test name="bankerlogin" duration-ms="6" started-at="2021-07-07T10:45:28Z" finished-at="2021-07-07T10:45:28Z">
+      <class name="test.BankarLogin">
+        <test-method status="PASS" signature="bankerLogin()[pri:0, instance:test.BankarLogin@2d2e5f00]" name="bankerLogin" duration-ms="2" started-at="2021-07-07T16:15:28Z" finished-at="2021-07-07T16:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankerLogin -->
+      </class> <!-- test.BankarLogin -->
+    </test> <!-- bankerlogin -->
+  </suite> <!-- test parameter -->
+</testng-results>
